@@ -12,29 +12,7 @@
    <img src="https://img.shields.io/badge/School-UIT-005BBB?style=for-the-badge&logo=google-scholar&logoColor=white" />
 </div>
 
-### <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> Network Defense Architecture
 
-```mermaid
-graph LR
-    Attacker[👾 Internet / Threat] -- Malicious Traffic --> FW[🔥 Firewall]
-    FW -- Filtered Traffic --> Router[🌐 Edge Router]
-    Router --> IPS[🛡️ IPS / IDS]
-    
-    subgraph "Internal Network"
-        IPS --> Switch[🔌 Core Switch]
-        Switch --> Server[🖥️ Protected Servers]
-        Switch --> PC[💻 User Workstations]
-    end
-    
-    subgraph "SOC Monitoring"
-        IPS -. Alerts .-> SIEM[📊 SIEM / Dashboard]
-        Switch -. Mirror Port .-> Sniffer[🕵️ Packet Capture]
-    end
-
-    style FW fill:#ff6b6b,stroke:#333,stroke-width:2px,color:black
-    style SIEM fill:#4ecdc4,stroke:#333,stroke-width:2px,color:black
-    style IPS fill:#ffe66d,stroke:#333,stroke-width:2px,color:black
-```
 
 ### <img src="https://cdn-icons-png.flaticon.com/512/2620/2620735.png" width="30"> Terminal Access
 
