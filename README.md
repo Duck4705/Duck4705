@@ -24,6 +24,6 @@ $ whoami
 # Current Status
 $ cat /etc/status
 > Student @ UIT (University of Information Technology)
-> Focus: Blue Team, SOC Operations, Network Defense
+> Focus: Blue Team, SOC Operations, Network Defense, AI Security
 > Motto: "Eyes on the glass, guarding the data."
 ```
